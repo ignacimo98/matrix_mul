@@ -1,6 +1,6 @@
 NVCC = nvcc
 
-all: vecadd
+all: matrix_cuda
 
 %.o : %.cu
 	$(NVCC) -c $< -o $@
